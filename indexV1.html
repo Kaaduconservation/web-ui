@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaaduconservationtrust</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <header class="bg-blue-green sticky-top shadow-lg">
+        <nav class="navbar navbar-expand-lg navbar-light container">
+            <a class="navbar-brand fw-bold fs-3 text-white" href="#">Kaadu Conservation Trust</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav" id="main-nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home-tab" data-target="#home-content" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="mission-tab" data-target="#mission-content" href="#">Mission/Vision</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="about-tab" data-target="#about-content" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="contact-tab" data-target="#contact-content" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5" id="page-content-wrapper">
+        
+        <section id="home-content" class="page-content active-content">
+            <h1 class="text-center mb-4 text-primary fw-bolder">Protecting the Wild, Empowering the People</h1>
+
+            <div id="imageSlider" class="carousel slide carousel-fade mb-5 shadow-lg rounded-3 overflow-hidden" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#imageSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#imageSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#imageSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="2.jpg" class="d-block w-100 object-fit-cover carousel-img" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-2 rounded-3">
+                            <h5>Innovation at its Best</h5>
+                            <p>Discover cutting-edge solutions for your business.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="1.jpeg" class="d-block w-100 object-fit-cover carousel-img" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-2 rounded-3">
+                            <h5>Seamless User Experience</h5>
+                            <p>Enjoy a beautiful and functional interface.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="3.jpg" class="d-block w-100 object-fit-cover carousel-img" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-2 rounded-3">
+                            <h5>Responsive Design</h5>
+                            <p>Access our content on any device, seamlessly.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#imageSlider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#imageSlider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            
+            <div class="row g-4 text-center">
+                <div class="col-md-4">
+                    <div class="card p-4 h-100 shadow-sm border-0 border-top border-primary border-5">
+                        <i class="fas fa-desktop fa-3x text-primary mb-3"></i>
+                        <h4 class="card-title">Support Our Field Projects</h4>
+                        <p class="card-text">Your contributions directly fund the "boots on the ground." From reforestation with native species to the implementation of early-warning systems for wildlife conflict, every donation helps us scale our impact.
+
+Fund a Forest: Help us restore degraded habitats through carbon sequestration initiatives.
+
+Species Recovery: Support breeding programs and habitat protection for endangered flora and fauna.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-4 h-100 shadow-sm border-0 border-top border-success border-5">
+                        <i class="fas fa-rocket fa-3x text-success mb-3"></i>
+                        <h4 class="card-title">Partner With Us</h4>
+                        <p class="card-text">We collaborate with government agencies, NGOs, and corporate partners to integrate eco-sensitive planning into development.
+
+Corporate Social Responsibility (CSR): Align your sustainability goals with our science-backed restoration projects.
+
+Knowledge Exchange: Are you a researcher or an urban planner? Let’s collaborate on data-driven strategies for biodiversity.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-4 h-100 shadow-sm border-0 border-top border-info border-5">
+                        <i class="fas fa-handshake fa-3x text-info mb-3"></i>
+                        <h4 class="card-title">Community & Volunteerism</h4>
+                        <p class="card-text">We believe in the power of local stewardship. Join our network of advocates and volunteers.
+
+Education & Awareness: Help us spread environmental literacy in schools and local communities.
+
+Eco-Livelihood Support: Purchase or promote products from our community-based enterprises, supporting organic farming and sustainable forestry.
+
+Citizen Science: Participate in our monitoring programs to help us track species health and population dynamics.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        
+        <section id="mission-content" class="page-content" style="display: none;">
+            <h1 class="text-center mb-5 text-success">Our Mission & Vision</h1>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="p-4 bg-light rounded-3 shadow-sm border-start border-success border-5">
+                        <h3 class="text-success mb-3"><i class="fas fa-bullseye me-2"></i>Mission</h3>
+                        <p class="lead">To advance the protection of ecosystems through scientific rigor, community-led conservation, and the restoration of natural landscapes. We believe in a future where human progress and biodiversity thrive in harmony.</p>
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="p-4 bg-light rounded-3 shadow-sm border-start border-primary border-5">
+                        <h3 class="text-primary mb-3"><i class="fas fa-eye me-2"></i>Vision</h3>
+                        <p class="lead">To act as the primary stewards of the environment, ensuring that the socio-economic resilience of our communities is built on a foundation of ecological integrity.</p>
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about-content" class="page-content" style="display: none;">
+            <h1 class="text-center mb-5 text-info">About Us</h1>
+            <div class="row align-items-center">
+                <div class="col-md-7">
+                    <p class="fs-5">Where Science Meets Stewardship</p>
+                    <p>Kaadu Conservation is a non-profit trust dedicated to the protection and restoration of our planet’s most vital ecosystems. Our name, Kaadu (meaning "forest"), reflects our deep-rooted commitment to the wilderness, but our work extends far beyond the trees.
+
+We operate at the intersection of rigorous scientific research and community-led action. From restoring degraded landscapes and mitigating human-wildlife conflict to empowering indigenous communities with sustainable livelihoods, we believe that conservation only succeeds when it is inclusive. By integrating traditional wisdom with modern technology, we are building a climate-resilient future where nature and humanity don't just survive—they thrive together.</p>
+                </div>
+                <div class="col-md-5 text-center">
+                    <img src="people-working-as-team-background-flat-style_23-2147767891.jpg" class="img-fluid rounded-circle shadow-lg mb-3" alt="Team Image">
+                    <p class="fw-bold text-muted">A Glimpse of Our Creative Space</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-content" class="page-content" style="display: none;">
+            <h1 class="text-center mb-5 text-danger">Ready to make a difference?
+The best time to restore an ecosystem was twenty years ago; the second best time is today</h1>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <form class="p-4 border rounded-3 shadow-lg">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Contact details
+                            <input type="email" class="form-control" id="contact@kaaduconservation.org" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-danger btn-lg w-100">Send Message <i class="fas fa-paper-plane ms-2"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-blue-green text-white pt-5 pb-4 mt-auto">
+        <div class="container text-center text-md-start">
+            <div class="row text-center text-md-start">
+                
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-white">RICH-UI</h5>
+                    <p>Providing modern, responsive, and visually stunning web solutions since 2020.</p>
+                </div>
+
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-white">Quick Links</h5>
+                    <p><a href="#" class="text-white text-decoration-none">Terms and Conditions</a></p>
+                    <p><a href="#" class="text-white text-decoration-none">Privacy Policy</a></p>
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-white">Connect</h5>
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item me-3">
+                            <a href="https://www.facebook.com" target="_blank" class="text-white social-link"><i class="fab fa-facebook-f fa-2x"></i></a>
+                        </li>
+                        <li class="list-inline-item me-3">
+                            <a href="https://www.youtube.com" target="_blank" class="text-white social-link"><i class="fab fa-youtube fa-2x"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="text-white social-link"><i class="fas fa-envelope fa-2x"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="mb-4">
+            <div class="row align-items-center">
+                <div class="col-md-12 text-center">
+                    <p class="mb-0">© 2026 All rights reserved by Kaadu Conservation Trust</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        $(document).ready(function() {
+            // Function to handle tab/page switching
+            $('#main-nav-tabs .nav-link').on('click', function(e) {
+                e.preventDefault(); 
+
+                var targetContent = $(this).data('target');
+
+                $('#main-nav-tabs .nav-link').removeClass('active');
+                $('.page-content').hide(); 
+
+                $(this).addClass('active');
+
+                // Using the fade effect directly here (CSS animation handles the lift/fade)
+                $(targetContent).css('display', 'block'); 
+            });
+            
+            // To properly trigger the CSS animation on page switch, we switch from jQuery fade to block/none display.
+            // When the content is hidden, the animation will restart when it's set to 'block'
+            $('.page-content:not(#home-content)').hide();
+        });
+    </script>
+</body>
+</html>
